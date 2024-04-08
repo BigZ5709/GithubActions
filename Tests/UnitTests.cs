@@ -82,8 +82,8 @@ namespace GithubActionsLab
         public void Divide_Valid()
         {
             Assert.AreEqual(0.5, Program.Divide("1", "2"));
-            Assert.AreEqual(3/2, Program.Divide("3", "2"));
-            Assert.AreEqual(5/7, Program.Divide("5", "7"));
+            Assert.AreEqual(1.5, Program.Divide("3", "2"));
+            Assert.AreEqual(1, Program.Divide("7", "7"));
         }
 
         [Test]
